@@ -12,7 +12,7 @@ const FetchAPI = () => {
             // console.log(response)
         })
         .then((response) => {
-            console.log(response) 
+            // console.log(response) 
             setCoins(response)
         })
         .catch((error) => {
